@@ -1,7 +1,7 @@
 package com.scue.tuturial.item;
 
 import com.scue.tuturial.TuturialMod;
-import net.minecraft.item.BlockItem;
+
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

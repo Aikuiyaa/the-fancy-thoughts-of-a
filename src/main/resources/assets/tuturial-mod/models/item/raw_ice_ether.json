@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tuturial-mod:item/raw_ice_ether"
-  }
-}

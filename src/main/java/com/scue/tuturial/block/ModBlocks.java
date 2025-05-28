@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block ICE_ETHER_ORC = register("ice_ether_orc",new Block(AbstractBlock.Settings.copy(Blocks.STONE)));
-    public static final Block TBLOCK = register("tblock",new Block(AbstractBlock.Settings.create().requiresTool().hardness(0.2f)));
+    public static final Block ICE_ETHER_BLOCK = register("ice_ether_block",new Block(AbstractBlock.Settings.create().requiresTool().hardness(0.2f)));
     public static final Block TBLOCK2 = register("tblock2",new Block(AbstractBlock.Settings.create().hardness(0.3f)));
 
     public static Block register(String id, Block block) {

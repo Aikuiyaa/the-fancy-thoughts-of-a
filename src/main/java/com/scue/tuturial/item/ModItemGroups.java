@@ -30,7 +30,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(Moditems.ICE_ETHER);
                         entries.add(ModBlocks.ICE_ETHER_ORC);
-                        entries.add(ModBlocks.TBLOCK);
+                        entries.add(ModBlocks.ICE_ETHER_BLOCK);
                         entries.add(ModBlocks.TBLOCK2);
                     }).build()
     );
