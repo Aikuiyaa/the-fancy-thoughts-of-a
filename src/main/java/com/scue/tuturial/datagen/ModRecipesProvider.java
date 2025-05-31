@@ -3,6 +3,8 @@ package com.scue.tuturial.datagen;
 import com.scue.tuturial.TuturialMod;
 import com.scue.tuturial.block.ModBlocks;
 import com.scue.tuturial.item.Moditems;
+import com.scue.tuturial.tags.ModBlockTags;
+import com.scue.tuturial.tags.ModItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
@@ -41,13 +43,16 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .pattern("AAA")
                 .input('#', Items.BEETROOT)
                 .input('A', Moditems.CARDBOARD)
-                .criterion(hasItem(Moditems.CARDBOARD), conditionsFromItem(Moditems.CARDBOARD));
+                .criterion(hasItem(Moditems.CARDBOARD), conditionsFromItem(Moditems.CARDBOARD))
+                .offerTo(consumer);
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TBLOCK2, 1)
-                .pattern("#")
-                .pattern("A")
-                .input('#', Moditems.ICE_ETHER)
-                .input('A', Moditems.CARDBOARD)
-                .criterion(hasItem(Moditems.CARDBOARD), conditionsFromItem(Moditems.CARDBOARD));
+                .pattern("###")
+                .pattern(" A ")
+                .input('#', ModItemTags.ICE_EHTER_TAG)
+                .input('A', Items.DIAMOND)
+                .criterion(hasItem(Moditems.CARDBOARD), conditionsFromItem(Moditems.CARDBOARD))
+                .offerTo(consumer);
     }
 }
