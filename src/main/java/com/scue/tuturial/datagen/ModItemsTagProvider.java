@@ -19,5 +19,8 @@ public class ModItemsTagProvider extends FabricTagProvider.ItemTagProvider {
                     .add(Moditems.CARDBOARD)
                     .add(Moditems.ICE_ETHER)
                     .add(Moditems.RAW_ICE_ETHER);
+
+        getOrCreateTagBuilder(ModItemTags.MOD_FOOD)
+                .add(Moditems.CIGARETTE);
     }
 }

@@ -46,6 +46,16 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Moditems.CARDBOARD), conditionsFromItem(Moditems.CARDBOARD))
                 .offerTo(consumer);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,Moditems.SUPERCIGARETTE,1)
+                .pattern("#A#")
+                .input('#',Items.PAPER)
+                .input('A',ModItemTags.MOD_FOOD)
+                .criterion(hasItem(Items.PAPER),conditionsFromItem(Items.PAPER))
+                .offerTo(consumer);
+
+
+
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TBLOCK2, 1)
                 .pattern("###")

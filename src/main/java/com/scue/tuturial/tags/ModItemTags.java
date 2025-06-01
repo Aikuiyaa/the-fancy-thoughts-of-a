@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemTags {
     public static final TagKey<Item> ICE_EHTER_TAG = creatTags("ice_ether_tag");
+    public static final TagKey<Item> MOD_FOOD = creatTags("mod_food");
 
     private static TagKey<Item> creatTags(String id) {
         return TagKey.of(RegistryKeys.ITEM, new Identifier(TuturialMod.MOD_ID,id));

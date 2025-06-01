@@ -32,6 +32,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ICE_ETHER_ORC);
                         entries.add(ModBlocks.ICE_ETHER_BLOCK);
                         entries.add(ModBlocks.TBLOCK2);
+                        entries.add(Moditems.CIGARETTE);
+                        entries.add(Moditems.PROSPECTOR);
                     }).build()
     );
 
