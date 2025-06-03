@@ -25,5 +25,7 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.ICE_ETHER, Models.GENERATED);
         itemModelGenerator.register(Moditems.RAW_ICE_ETHER, Models.GENERATED);
         itemModelGenerator.register(Moditems.CARDBOARD, Models.GENERATED);
+        itemModelGenerator.register(Moditems.REDBULL,Models.GENERATED);
+        itemModelGenerator.register(Moditems.SMOKESTICK,Models.GENERATED);
     }
 }

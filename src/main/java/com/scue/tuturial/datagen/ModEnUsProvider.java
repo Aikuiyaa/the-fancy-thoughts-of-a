@@ -21,6 +21,8 @@ public class ModEnUsProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.ICE_ETHER_BLOCK,"Ice Ether Block");
         translationBuilder.add(ModBlocks.ICE_ETHER_ORC,"Ice Ether Orc");
         translationBuilder.add(ModBlocks.TBLOCK2,"Cow Block");
+        translationBuilder.add(Moditems.REDBULL,"Redd Bull");
+        translationBuilder.add(Moditems.SMOKESTICK,"Smoke Stick");
 
 
     }
